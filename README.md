@@ -12,7 +12,7 @@
 
 效果展示：
 
-![](/README_PIC/pic1.png)
+![](/10195501416/city-vein/raw/branch/master/README_PIC/pic1.png)
 
 # 网页部署方式：
 
@@ -41,4 +41,4 @@ sudo apt install apache2
 
 已经配置好的主机ip，用户名: ubuntu, 密码: l1i2y2u3nfan（五个主机用户密码相同，备注为master的为主节点）：
 
-![](/README_PIC/pic2.png)
+![](/10195501416/city-vein/raw/branch/master/README_PIC/pic2.png)
