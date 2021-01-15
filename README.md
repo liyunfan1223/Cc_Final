@@ -1,25 +1,36 @@
 # City Vein
 
-城市脉络，以数据还原模样，探寻城市肌理。
+云计算期末项目
 
-## View
+基于https://github.com/ttcqaq/city-vein
 
-[GitHub Page](https://ttcqaq.github.io/city-vein)
+部署ip:106.75.233.222
 
-## Related
+数据来源：8684、高德api
 
-[ECharts Gallery - 北京公交路线特效](https://gallery.echartsjs.com/editor.html?c=bmap-bus)
+地图来源：百度地图api
 
-## Run
+# 网页部署方式：
 
-```bash
-python script/main.py
+1. 安装apache2
+```
+sudo apt install apache2
 ```
 
-## Preview
+2. 将所有文件放至/var/www/html中
 
-杭州 北京 上海 成都 深圳 广州
+3. 访问云主机ip
 
-![](png/hangzhou.png) ![](png/beijing.png)
-![](png/shanghai.png) ![](png/chengdu.png)
-![](png/shenzhen.png) ![](png/guangzhou.png)
+# 公交线路数据更新方式：
+
+本地更新方式：
+
+1. 申请高德api，修改/scrpit/main.py中的key（默认已经填上申请好的key了）
+
+2. 运行/script/main.py
+
+分布式更新方式：
+
+1. 需要配置四台云主机环境，安装sshpass（可以配好一台然后通过镜像创建）
+
+2. 修改代码中对应主云主机的内网ip、用户名和密码并分别运行main1.py, main2.py, main3.py, main4.py

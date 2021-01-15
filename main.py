@@ -267,10 +267,7 @@ def getData(city_zh):
     )
     obj.generate()
 
-DoneDict = {
-    
-}
-Dict1 = {
+Dict = {
     "北京": "beijing",
     '上海': 'shanghai',
     "广州": "guangzhou",
@@ -279,9 +276,18 @@ Dict1 = {
     "武汉": "wuhan",
     "天津": "tianjin",
     "深圳": "shenzhen",
-}
-
-Dict2 = {
+    "成都": "chengdu",
+    "重庆": "chongqing",
+    "香港": "hongkong",
+    "澳门": "aomen",
+    "西安": "xian",
+    "拉萨": "lasa",
+    "郑州": "zhengzhou",
+    "长沙": "changsha",
+    "贵阳": "guiyang",
+    "西宁": "xining",
+    "南宁": "nanning",
+    "海口": "haikou",
     "福州": "fuzhou",
     "嘉兴": "jiaxing",
     "济宁": "jining",
@@ -303,9 +309,6 @@ Dict2 = {
     "淄博": "zibo",
     "亳州": "bozhou",
     "金华": "jinhua",
-}
-
-Dict3 = {
     "呼和浩特": "huhehaote",
     "乌鲁木齐": "wulumuqi",
     "太原": "taiyuan",
@@ -328,29 +331,11 @@ Dict3 = {
     "常州": "changzhou",
     "东莞": "dongguan",
     "东营": "dongying",
-    "佛山": "foshan",
-}
-
-Dict4 = {
-    "成都": "chengdu",
-    "重庆": "chongqing",
-    "香港": "hongkong",
-    "澳门": "aomen",
-    "西安": "xian",
-    "拉萨": "lasa",
-    "郑州": "zhengzhou",
-    "长沙": "changsha",
-    "贵阳": "guiyang",
-    "西宁": "xining",
-    "南宁": "nanning",
-    "海口": "haikou",
+    "佛山": "foshan"
 }
 def job():
-    for i in Dict1.keys():
+    for i in Dict.keys():
         getData(i)
-
-def spacejob():
-    print('lalala')
 
 def dojob():
     job()
