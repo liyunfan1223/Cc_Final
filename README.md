@@ -14,7 +14,7 @@
 
 效果展示：
 
-![](/10195501416/city-vein/raw/branch/master/README_PIC/pic1.png)
+![](/liyunfan1223/city-vein/raw/branch/master/README_PIC/pic1.png)
 
 # 网页部署方式：
 
@@ -45,8 +45,4 @@ sudo apt install apache2
 
 子云主机镜像名：PART
 
-云主机账号：lyf_liyunfan@sina.com
-
-云主机密码：l1i2y2u3nfan
-
-![](/10195501416/city-vein/raw/branch/master/README_PIC/pic3.png)
+![](/liyunfan1223/city-vein/raw/branch/master/README_PIC/pic3.png)
